@@ -333,9 +333,7 @@ public class GBRouter extends ActiveRouter {
     private void initratecal() throws IOException{
 		
     	//SigCom
-	    String filePath = "C:\\Users\\Masroor\\Documents\\My_DTNs Routing _Code\\GbR2020\\"
-	    		+ "GroupBasedRouting2020\\reports\\GBR2020\\Sigcomm9One\\Mean_ICT\\"
-	    		+ "EpidemicRouter-987529-TTL-10-buff-10M-seed-1_GBR_MeanICT.txt"; 	
+	    String filePath = "GBR_MeanICT.txt"; 	
 	    
 		BufferedReader reader2 = new BufferedReader(new FileReader(filePath));
 		String line;
@@ -368,9 +366,7 @@ public class GBRouter extends ActiveRouter {
     
     private void initGrpratecal() throws IOException{
 		 //SigCom
-	    String filePath = "C:\\Users\\Masroor\\Documents\\My_DTNs Routing _Code\\GbR2020\\"
-	    		+ "GroupBasedRouting2020\\reports\\GBR2020\\Sigcomm9One\\Mean_ICT\\"
-	    		+ "Group_rate\\EpidemicRouter-987529-TTL-10-buff-10M-seed-1_GBR_MeanICT.txt"; 
+	    String filePath = "GBR_MeanICT.txt"; 
 	    
 		BufferedReader reader2 = new BufferedReader(new FileReader(filePath));
 		String line;
