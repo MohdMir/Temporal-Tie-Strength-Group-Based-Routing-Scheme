@@ -15,7 +15,7 @@ The scheme shows significant improvements in delivery rate and overhead when app
     https://github.com/akeranen/the-one
 
 
-Instructions on how to use the **TS-GBR** routing scheme will be included here. 
+## 
 
 
 
