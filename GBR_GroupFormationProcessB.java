@@ -8,8 +8,8 @@ import java.util.Map;
 public class GBR_GroupFormationProcessB {
 
     //GBR parameters for group consistency and duration-frequency conditions
-    double gamma = 0.5; // Group consistency condition
-    double delta = 0.5; // Node frequency condition
+    double gamma ; // Group consistency condition
+    double delta ; // Node frequency condition
 
     /**
      * Finalizes group formation based on GBR conditions.
@@ -93,7 +93,7 @@ public class GBR_GroupFormationProcessB {
 
         // Calculate group consistency ratio
         double cnt = counter;
-        double nrdys = nrofdays;
+        double nrdys = nrofdays; 
 
         @SuppressWarnings("unchecked")
         ArrayList<Integer>[] ret = new ArrayList[2];
