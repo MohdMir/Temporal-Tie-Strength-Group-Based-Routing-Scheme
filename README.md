@@ -16,31 +16,31 @@ The scheme shows significant improvements in delivery rate and overhead when app
 
 
 ## Overview of Files
-1:-GBR_ContactTimesReport
+1:- **GBR_ContactTimesReport**:
     Maps contact times between hosts to integer intervals (e.g., hourly).
     Stores pairwise contact times and provides structured temporal data for analysis.
 
-2:-GBR_GroupFormationProcessA
+2:-**GBR_GroupFormationProcessA**:
     Extracts groups from KClique_lists formed in daily intervals (T_i).
     Divided into two sub-processes: GBR_getMaxKClique and GBR_makeKclique.
 
-3:-GBR_GroupFormationProcessB
+3:-**GBR_GroupFormationProcessB**:
     Finalizes group formation based on GBR conditions.
     Processes daily k-clique data and returns final groups for simulation.
 
-4:-GBR_Kclique
+4:-**GBR_Kclique**:
     Implements k-clique detection in temporal graphs.
     Processes contact data to identify cliques and monitor host connections.
 
-5:-GBR_MeanDuration
+5:-**GBR_MeanDuration**:
     Calculates the mean duration of contacts between hosts.
     Provides statistical insights into inter-contact durations in DTN simulations.
 
-6:-GBR_MeanICT
+6:-**GBR_MeanICT**:
     Generates encounter reports for GBR.
     Useful for analyzing inter-contact times and other metrics.
 
-7:-GBRouter
+7:-**GBRouter**:
     Implements the GBR-based routing protocol. Designed to facilitate efficient data transfer in DTNs
 
 
