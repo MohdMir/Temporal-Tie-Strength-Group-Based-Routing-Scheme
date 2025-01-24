@@ -104,6 +104,9 @@ public class GBR_Kclique extends Report implements ConnectionListener, UpdateLis
 			day++;
 		}
 
+		GroupSelector gs = new GroupSelector();
+      		gs.MakeFinalGroup(Group);
+
 		super.done();
 	}
 
