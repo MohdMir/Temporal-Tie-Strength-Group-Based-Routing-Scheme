@@ -28,7 +28,7 @@ public class GroupDurationCondition {
         this.N = N ;
         this.beta = beta ;
         // Path to the file
-        String filePath = "C:\\Users\\Kifayat\\Desktop\\Yaseen\\GBR_2024_07\\GBR_CodeJava\\file2.txt";
+        String filePath = "file2.txt";
         try {
 
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
@@ -95,7 +95,7 @@ public class GroupDurationCondition {
 	  }  
     }  
     
-    // Duration calculation eq 12
+    // Duration calculation eq 12 from our paper
 	private double Calculate_Eq12(ArrayList<Double> arrayList) {
         double value = 0.0 ;
         for(Double i : arrayList) {
