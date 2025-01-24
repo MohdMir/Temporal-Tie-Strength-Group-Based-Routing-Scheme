@@ -45,6 +45,7 @@ The scheme shows significant improvements in delivery rate and overhead when app
 
 8:-**GroupSelector**
     This class is responsible for displaying the final groups formed after filtering out overlapping elements.
+    
 9:- **GroupDurationCondition**
      This class applies duration condition to filter groups further. 
      It removes members from the group if the average duration of their connections does not meet the specified threshold (beta).
