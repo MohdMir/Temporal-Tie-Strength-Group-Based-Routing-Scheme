@@ -28,7 +28,7 @@ public class GroupDurationCondition {
         this.N = N ;
         this.beta = beta ;
         // Path to the file
-        String filePath = "file2.txt";
+        String filePath = "file2.txt"; // using @GBR_MeanDuration.java
         try {
 
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
