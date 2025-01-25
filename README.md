@@ -49,7 +49,8 @@ The scheme shows significant improvements in delivery rate and overhead when app
 9:- **GroupDurationCondition**
      This class applies duration condition to filter groups further. 
      It removes members from the group if the average duration of their connections does not meet the specified threshold (beta).
-
+10:- **CalGrouprate**
+`    The CalGrouprate class is designed to manage and calculate group rates using a nested mapping structure.
 
 
 
